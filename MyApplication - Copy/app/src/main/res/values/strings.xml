@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Raven</string>
+    <string name="app_name_caps">RAVEN</string>
+
+    <!-- Navigation -->
+    <string name="nav_nodes">Nodes</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_base">Base</string>
+    <string name="nav_peers">Peers</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Discovery Screen -->
+    <string name="msg_select_device">Select a device to join the mesh network</string>
+    <string name="action_share_location">Share Location</string>
+    <string name="subtitle_broadcast_gps">Broadcast GPS</string>
+    <string name="action_scanning">Scanning...</string>
+    <string name="action_scan_network">Scan Network</string>
+    <string name="subtitle_find_peers">Find Peers</string>
+    <string name="section_trusted_nodes">Trusted Nodes</string>
+    <string name="section_nearby_signals">Nearby Signals</string>
+    <string name="action_emergency_sos">EMERGENCY SOS</string>
+    <string name="subtitle_sos_broadcast">Broadcast to all available nodes</string>
+    <string name="label_unnamed_node">Unnamed Node</string>
+    <string name="label_unknown_device">Unknown Device</string>
+    <string name="msg_no_active_signals">No Active Signals</string>
+    <string name="msg_initiate_scan">Initiate scan to find mesh nodes</string>
+
+    <!-- Chat Screen -->
+    <string name="header_mesh_comm">MESH_COMM</string>
+    <string name="label_active_nodes">%d ACTIVE NODES</string>
+    <string name="header_tactical_assistant">TACTICAL ASSISTANT</string>
+    <string name="action_dismiss">DISMISS</string>
+    <string name="hint_secure_message">Secure Mesh Message...</string>
+    <string name="label_sender_me">Me</string>
+
+    <!-- Map Screen -->
+    <string name="header_tactical_map">TACTICAL_MAP</string>
+    <string name="msg_caching_area">Caching Area...</string>
+    <string name="msg_offline_ready">Offline Ready</string>
+    <string name="msg_download_failed">Download failed</string>
+    <string name="label_scanning_mesh">SCANNING_MESH</string>
+    <string name="action_nearest_base">NEAREST BASE</string>
+    <string name="action_nearest_peer">NEAREST PEER</string>
+
+    <!-- Camp Screen -->
+    <string name="header_base_stations">BASE_STATIONS</string>
+    <string name="title_establish_base">ESTABLISH BASE STATION</string>
+    <string name="label_base_name">Base Name</string>
+    <string name="label_latitude">Latitude</string>
+    <string name="label_longitude">Longitude</string>
+    <string name="action_broadcast">BROADCAST</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="msg_no_base_found">No Base Stations Found</string>
+    <string name="label_coords_format">COORDS: %1$s, %2$s</string>
+
+    <!-- Location & Settings -->
+    <string name="title_peer_locations">Peer Locations</string>
+    <string name="title_settings">Settings</string>
+    <string name="msg_settings_screen">Settings Screen</string>
+    <string name="label_unknown">Unknown</string>
+    <string name="msg_gps_waiting">Waiting for GPS fix...</string>
+    <string name="msg_no_camps">No camps found!</string>
+    <string name="msg_no_peers_location">No peers with location found!</string>
+    <string name="msg_route_calculated">Route calculated: %1$.2f km</string>
+    <string name="msg_offline_fallback">Offline Fallback: Straight-line path shown</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale">Raven needs Bluetooth and Location permissions to find and connect to nearby devices.</string>
+    <string name="permission_required">Bluetooth and Location permissions are required for this app to function.</string>
+    <string name="action_request_permissions">Request Permissions</string>
+
+    <!-- Offline Assistant -->
+    <string name="assistant_bleeding">Severe bleeding: check scene safety, use clean cloth or dressing and firm direct pressure. Add more cloth without removing soaked layers. If an arm or leg bleed is life-threatening and trained help is available, follow the tourniquet instructions in your kit. Keep the person warm and seek emergency help immediately. Do not use a stick as a tourniquet unless a trained protocol specifically directs it.</string>
+    <string name="assistant_fracture">Keep the injured area still. Do not straighten it or push exposed bone back. Support it with padding and a splint only if needed for safe movement, using two nearby rigid supports without tightening over the injury. Check circulation before and after. Get urgent medical help.</string>
+    <string name="assistant_shock">Lay the person flat if safe, keep them warm, reassure them, and do not give food, drink, or medication if they are confused, vomiting, or may need surgery. Monitor breathing and seek emergency help.</string>
+    <string name="assistant_water">Use the safest source available. Filter visible sediment and boil when possible; chemical treatment must follow its product label. Avoid unknown water if safer water exists. Small frequent sips are safer than forcing a large amount.</string>
+    <string name="assistant_burn">Cool a thermal burn with clean running water for about 20 minutes when available. Remove jewelry or loose clothing, not anything stuck to skin. Cover loosely with a clean non-fluffy dressing. Do not apply ice, butter, toothpaste, or break blisters.</string>
+    <string name="assistant_cpr">Check scene safety and responsiveness. Call emergency services or send someone. Check breathing briefly. If the person is not breathing normally, begin CPR if trained and follow dispatcher instructions; use an AED if available.</string>
+    <string name="assistant_default">Keep calm. Check scene safety, identify immediate threats, check responsiveness and breathing, call or signal for emergency help, share your location, and provide only care you are trained to give. This offline guide can be wrong and cannot diagnose or prescribe medication.</string>
+    <!-- Service & Notifications -->
+    <string name="msg_raven_active">Raven active</string>
+    <string name="label_mesh_service">Mesh Service</string>
+    <string name="label_sos_alerts">SOS Alerts</string>
+    <string name="label_sos_emergency">🚨 SOS EMERGENCY</string>
+    <string name="label_incoming_broadcast">Incoming Broadcast</string>
+    <string name="msg_location_share">My current location share</string>
+    <!-- Accessibility Descriptions -->
+    <string name="cd_back">Back</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_disconnect">Disconnect</string>
+    <string name="cd_ai_assistant">AI Assistant</string>
+    <string name="cd_sos">SOS</string>
+    <string name="cd_send">Send</string>
+    <string name="cd_download">Download</string>
+    <string name="cd_add_base">Add Base</string>
+    <string name="cd_navigate">Navigate</string>
+    <string name="label_battery_format">BAT: %1$d%%</string>
+    <string name="label_battery_percentage">%1$d%%</string>
+</resources>

@@ -1,0 +1,18 @@
+[
+  {
+    "senderName": "Rescuer Alpha",
+    "message": "En route to extraction point",
+    "messageType": "LOCATION",
+    "latitude": 22.5,
+    "longitude": 79.0,
+    "batteryPercentage": 85
+  },
+  {
+    "senderName": "Team Beta",
+    "message": "Holding position near debris",
+    "messageType": "LOCATION",
+    "latitude": 51.5,
+    "longitude": -0.12,
+    "batteryPercentage": 42
+  }
+]
